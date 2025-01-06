@@ -1,7 +1,7 @@
 import React from 'react'
-import './App.css'
+import './index.css'
 
-function App() {
+function HomeworkOne() {
   return (
     <div>
       
@@ -9,4 +9,4 @@ function App() {
   )
 }
 
-export default App
+export default HomeworkOne
