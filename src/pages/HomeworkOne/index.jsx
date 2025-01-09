@@ -8,7 +8,7 @@ import Select from '@mui/material/Select';
 import IconButton from '@mui/material/IconButton';
 import DeleteIcon from '@mui/icons-material/Delete';
 import { Toaster, toast } from 'react-hot-toast';
-import { Button, Typography, Tooltip} from '@mui/material';
+import { Button, Typography, Tooltip } from '@mui/material';
 
 function HomeworkOne() {
   const [name, setName] = useState("")
@@ -78,7 +78,7 @@ function HomeworkOne() {
     const newUser = [...data, user]
     setData(newUser)
     toast.success("User added successfully")
-    
+
     localStorage.setItem('userData', JSON.stringify(newUser))
 
     setName("")
@@ -88,10 +88,13 @@ function HomeworkOne() {
   }
 
   function handleDelete(id) {
-    const deleteUser = data.filter((user) => user.id !== id)
-    setData(deleteUser)
+    let isDelete = confirm("Rostdan ham o'chirmoqchimisiz?")
+    if (isDelete) {
+      const deleteUser = data.filter((user) => user.id !== id)
+      setData(deleteUser)
 
-    localStorage.setItem("userData", JSON.stringify(deleteUser))
+      localStorage.setItem("userData", JSON.stringify(deleteUser))
+    }
   }
 
   return (
