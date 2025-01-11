@@ -1,0 +1,22 @@
+.container-postDetails {
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding: 15px;
+    border: 2px solid #f6c925;
+
+    h2 {
+        text-align: center;
+        font-size: 35px;
+        font-weight: 700;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: 450;
+    }
+
+    .parag {
+        text-align: center;
+    }
+}
