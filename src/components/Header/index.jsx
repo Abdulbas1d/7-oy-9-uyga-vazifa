@@ -12,7 +12,6 @@ function Header() {
                     <NavLink className="infor" to="/">Homework One</NavLink>
                     <NavLink className="infor" to="/homeworkTwo">Homework Two</NavLink>
                     <NavLink className="infor" to="/homeworkThree">Homework Three</NavLink>
-                    <NavLink className="infor" to="/homeworkFour">Homework Four</NavLink>
                 </div>
             </div>
         </div>

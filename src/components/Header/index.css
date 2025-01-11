@@ -20,8 +20,8 @@
 
     .data {
         display: flex;
-        gap: 40px;
-        margin-left: 100px;
+        gap: 50px;
+        margin-left: 150px;
         margin-top: 4px;
 
         .infor {

@@ -5,7 +5,6 @@ import MainLayout from './Layouts/MainLayout'
 import HomeworkOne from './pages/HomeworkOne'
 import HomeworkTwo from './pages/HomeworkTwo'
 import HomeworkThree from './pages/HomeworkThree'
-import HomeworkFour from './pages/HomeworkFour'
 
 function App() {
   return (
@@ -14,7 +13,6 @@ function App() {
         <Route index element = {<MainLayout><HomeworkOne /></MainLayout>} />
         <Route path='/homeworkTwo' element = {<MainLayout><HomeworkTwo /></MainLayout>} />
         <Route path='/homeworkThree' element = {<MainLayout><HomeworkThree /></MainLayout>} />
-        <Route path='/homeworkFour' element = {<MainLayout><HomeworkFour /></MainLayout>} />
       </Routes>
     </div>
   )
